@@ -18,7 +18,7 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "https://api.slapform.com/info@blissfulwebdev.com",
+                url: "https://api.slapform.com/" + contactEmail,
                 type: "POST",
                 dataType: 'json',
                 data: {
